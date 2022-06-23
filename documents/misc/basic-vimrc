@@ -1,0 +1,19 @@
+set laststatus=2
+set ttimeout ttimeoutlen=30
+set viminfo="NONE"
+set number
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set title
+set noswapfile
+set nobackup
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set t_Co=256
+set clipboard=unnamedplus
+set mouse=nicr
+syntax enable

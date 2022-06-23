@@ -54,7 +54,7 @@ fi
 # display settings 
 
 #feh --no-fehbg --bg-fill /home/ignacio/documents/images/waves.jpg &
-#nvidia-settings -a GPUFanControlState=1 -a GPUTargetFanSpeed=60
+#nvidia-settings -a GPUFanControlState=1 -a GPUTargetFanSpeed=60 &
 
 # start some nice programs
 
