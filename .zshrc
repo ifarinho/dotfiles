@@ -18,6 +18,7 @@ echo $(date +"%A %B %d %l:%M %p") "\n"
 
 # vars
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$HOME/go/bin"
 export EDITOR="vim"
 
 # alias
