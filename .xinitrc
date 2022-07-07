@@ -53,8 +53,8 @@ fi
 
 # display settings 
 
-#feh --no-fehbg --bg-fill /home/ignacio/documents/images/waves.jpg &
-#nvidia-settings -a GPUFanControlState=1 -a GPUTargetFanSpeed=60 &
+feh --no-fehbg --bg-fill /home/ignacio/documents/images/waves.jpg &
+nvidia-settings -a GPUFanControlState=1 -a GPUTargetFanSpeed=30 &
 
 # start some nice programs
 
@@ -65,10 +65,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-#slstatus &
-#numlockx &
-#unclutter -idle 5 &
-#clipmenud &
-#picom &
+slstatus &
+numlockx &
+unclutter -idle 5 &
+clipmenud &
+picom &
 
-exec xmonad 
+exec dwm 
